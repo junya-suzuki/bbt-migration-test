@@ -20,6 +20,8 @@ $ bin/rails db:setup
 
 `rake log`をつけて、`db:migrate`などを実行すると標準ログが表示されます。
 
+`lib/tasks/log.rake`を参照してください。
+
 ### 1. usersテーブルの準備:100件追加
 ```
 $ rake log db:migrate:reset db:seed
