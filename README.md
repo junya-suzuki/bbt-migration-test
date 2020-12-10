@@ -42,8 +42,9 @@ $ user.name = 'name'
 ```
 $ rake log db:migrate
 ```
-2で準備したmigrationファイルが実行されます。
-SLEEPを20秒間設定しています。
+`2.`で準備したmigrationファイルが実行されます。
+
+SLEEPを20秒間に設定しています。
 
 ### 5. railsコンソールでsave実行
 `3.`のコンソールを使い
